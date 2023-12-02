@@ -24,6 +24,7 @@ class Block {
                 hash: cryptoHash(timeStamp, lastHash, data)
             })
     }
+
 }
 
 module.exports = Block
